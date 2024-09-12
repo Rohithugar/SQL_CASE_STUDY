@@ -42,7 +42,6 @@ RIGHT JOIN customer c ON c.id=m.customer_id
 GROUP BY c.name
 ORDER BY COUNT(m.id) DESC;
 ``` 
-``` sql
 3. Emily is working on a special offer for the winter months. Can you help her prepare a list of new rental prices?
 For each bike, display its ID, category, old price per hour (call this column 
 old_price_per_hour ), discounted price per hour (call it new_price_per_hour ), old
